@@ -55,10 +55,10 @@ def contacto(request):
         mensaje = request.POST.get("txtMensaje")
         # Setea el mensaje
         ms = 'Senor admin tienes un mensaje de ' + name + 'de correo' + email + ', dice ' + mensaje
-        fromaddr = 'indigomaker@gmail.com'
-        toaddrs = 'rebootsoftware2@gmail.com'
-        username = 'indigomaker@gmail.com'
-        password = 'bijuje159951'
+        fromaddr = 'i'
+        toaddrs = ''
+        username = 'i'
+        password = ''
         server = smtplib.SMTP('smtp.gmail.com:587')
         server.starttls()
         server.login(username, password)
